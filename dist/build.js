@@ -9939,7 +9939,7 @@ var App = function (_React$Component) {
 						'div',
 						{ className: 'col-xs' },
 						_react2.default.createElement(ServiceBlock, {
-							image: 'images/service-icons/airdrop.svg',
+							image: 'images/service-icons/auditing.svg',
 							content: 'Smart Contract Auditing'
 						})
 					),
@@ -27354,7 +27354,7 @@ exports = module.exports = __webpack_require__(357)(undefined);
 
 
 // module
-exports.push([module.i, ".services-container {\n  max-width: 540px;\n  margin: auto;\n}\n.service-block {\n  background-image: url(\"/images/hexa.png\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: 190px;\n  width: 150px;\n  height: 160px;\n  position: relative;\n}\n.service-block img {\n  width: 50px;\n  position: relative;\n  left: 55px;\n  top: 55px;\n}\n.service-block p {\n  margin-top: 35px;\n  color: #414aab;\n  text-shadow: 0 0 5px #808080;\n  font-size: 17px;\n  font-weight: bold;\n  text-align: center;\n  width: 90px;\n  text-shadow: 0 0 5px #d3d3d3;\n  position: relative;\n}\n", ""]);
+exports.push([module.i, ".services-container {\n  max-width: 600px;\n  margin: auto;\n}\n.service-block {\n  background-image: url(\"/images/hexa.png\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: 250px;\n  width: 200px;\n  height: 200px;\n  position: relative;\n}\n.service-block img {\n  width: 50px;\n  position: relative;\n  left: 75px;\n  top: 75px;\n}\n.service-block p {\n  margin-top: 35px;\n  color: #414aab;\n  text-shadow: 0 0 5px #808080;\n  font-size: 17px;\n  font-weight: bold;\n  text-align: center;\n  width: 90px;\n  text-shadow: 0 0 5px #d3d3d3;\n  position: relative;\n}\n", ""]);
 
 // exports
 

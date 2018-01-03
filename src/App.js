@@ -13,7 +13,7 @@ class App extends React.Component {
 				<div className="row justify-content-center services-container">
 					<div className="col-xs">
 						<ServiceBlock
-							image="images/service-icons/airdrop.svg"
+							image="images/service-icons/auditing.svg"
 							content="Smart Contract Auditing"
 						/>
 					</div>
