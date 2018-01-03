@@ -9931,11 +9931,35 @@ var App = function (_React$Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				null,
-				_react2.default.createElement(ServiceBlock, {
-					image: 'images/service-icons/airdrop.svg',
-					content: 'Hi'
-				})
+				{ className: 'container' },
+				_react2.default.createElement(
+					'div',
+					{ className: 'row' },
+					_react2.default.createElement(ServiceBlock, {
+						image: 'images/service-icons/airdrop.svg',
+						content: 'Smart Contract Auditing'
+					}),
+					_react2.default.createElement(ServiceBlock, {
+						image: 'images/service-icons/development.svg',
+						content: 'ICO Development'
+					}),
+					_react2.default.createElement(ServiceBlock, {
+						image: 'images/service-icons/programming.svg',
+						content: 'Smart Contract Programming'
+					}),
+					_react2.default.createElement(ServiceBlock, {
+						image: 'images/service-icons/dapp.svg',
+						content: 'dApp Development'
+					}),
+					_react2.default.createElement(ServiceBlock, {
+						image: 'images/service-icons/token.svg',
+						content: 'ERC20 Token Creation'
+					}),
+					_react2.default.createElement(ServiceBlock, {
+						image: 'images/service-icons/airdrop.svg',
+						content: 'ERC20 Token Airdrop'
+					})
+				)
 			);
 		}
 	}]);
@@ -9946,7 +9970,7 @@ var App = function (_React$Component) {
 function ServiceBlock(props) {
 	return _react2.default.createElement(
 		'div',
-		{ className: 'service-block' },
+		{ className: 'service-block col-lg-2' },
 		_react2.default.createElement('img', { src: props.image }),
 		_react2.default.createElement(
 			'p',
@@ -27306,7 +27330,7 @@ exports = module.exports = __webpack_require__(357)(undefined);
 
 
 // module
-exports.push([module.i, ".service-block {\n  background-image: url(\"/images/hexa.png\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: 150px;\n  width: 110px;\n  height: 110px;\n}\n.service-block img {\n  width: 50px;\n}\n", ""]);
+exports.push([module.i, ".service-block {\n  background-image: url(\"/images/hexa.png\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: 190px;\n  width: 150px;\n  height: 160px;\n  position: relative;\n}\n.service-block img {\n  width: 50px;\n  position: relative;\n  left: 55px;\n  top: 55px;\n}\n.service-block p {\n  margin-top: 35px;\n  color: #414aab;\n  text-shadow: 0 0 5px #808080;\n  font-size: 17px;\n  font-weight: bold;\n  text-align: center;\n  width: 90px;\n  text-shadow: 0 0 5px #d3d3d3;\n  position: relative;\n}\n", ""]);
 
 // exports
 
